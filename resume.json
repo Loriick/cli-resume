@@ -1,0 +1,15 @@
+{
+  "Education": ["School: Hetic", "Years: 2017-2020"],
+  "Last Experience": [
+    "Position: Front-end developer",
+    "Company: Adot",
+    "Years: 2018 to now"
+  ],
+  "Tech Skills": ["JavaScript", "React", "Git", "Sass"],
+  "Github": ["https://github.com/Loriick/"],
+  "Contact": [
+    "Phone: +33 6 59 58 35 80",
+    "Mail: loricktravailleur@gmail.com",
+    "Linkedin: https://www.linkedin.com/in/lorick-travailleur"
+  ]
+}
