@@ -9,12 +9,14 @@ const resume = require("./resume.json");
 const resumePrompts = {
   type: "list",
   name: "resumeOptions",
-  message: "What do you want to know about me?",
+  message: "Learn more about me",
   choices: [...Object.keys(resume), "Exit"]
 };
 
 const main = () => {
-  console.log("Hi, I'm Lorick and a French front-end developer");
+  console.log(
+    "Hi, I'm Lorick I'm 30years old and a I'm French front-end developer, I'm study at Hetic and work at Adot a French company from Paris"
+  );
   resumeHandler();
 };
 
@@ -29,7 +31,6 @@ const resumeHandler = () => {
       console.log(response("|   => " + info));
     });
     console.log(response("--------------------------------------"));
-    // console.log(resume[`${option}`]);
     inquirer
       .prompt({
         type: "list",
